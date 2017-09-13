@@ -1,0 +1,27 @@
+{
+    "name": "lee/blade",
+    "description": "an independent version of laravel view template - blade",
+    "license": "MIT",
+    "homepage": "http://hhailuo.com",
+    "support": {
+        "issues": "https://github.com/xiaoyao-work/lee-blade/issues",
+        "source": "https://github.com/xiaoyao-work/lee-blade"
+    },
+    "authors": [
+        {
+            "name": "Scholer Liu",
+            "email": "scholer_l@live.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Lee\\Blade\\": "src/"
+        }
+    }
+}
